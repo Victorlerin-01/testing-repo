@@ -1,0 +1,156 @@
+body{
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 220vh;
+  margin: 0;
+
+}
+
+.heading {
+    background-color: #BDE0FE;
+    padding: 30px;
+    width: 80%;
+    text-align: center;
+}
+
+#button1 {
+
+    background-color: #03045E;
+    border-radius: 10px;
+    border: 0;
+    color: WHITE;
+    width: 200px;
+    padding: 20px; 
+
+}
+
+#button2 {
+    background-color: red;
+    border: 0;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+    color: black;
+
+}
+
+.button3 {
+    background-color: #FFD6FF;
+    border: 0;
+    width: 200px;
+    padding: 20px;
+    font-size: large;
+
+}
+.button3:hover {
+    background-color: #E7C6FF;
+    width: 200px;
+    padding: 20px;
+    color: red;
+    
+    font-size: large;
+
+}
+
+#result {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+}
+
+.heading-2 {
+    background-color: yellow;
+    padding: 30px;
+    margin: 20px;
+    width: 80%;
+    text-align: center;
+
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+
+.heading3 {
+    background-color: blue;
+    padding: 30px;
+    margin: 20px;
+    margin-bottom: 200px;
+    width: 80%;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.calc-container {
+  background: white;
+  padding: 25px 35px;
+  border-radius: 14px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 320px;
+}
+
+.calc-container h2 {
+  margin-bottom: 15px;
+  color: #2a5298;
+}
+
+.calc-container input {
+  width: 85%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.buttons button {
+  padding: 10px 14px;
+  margin: 6px;
+  border: none;
+  border-radius: 8px;
+  background: #ff6f00;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  transition: transform 0.2s, background 0.3s ease;
+}
+
+.buttons button:hover {
+  background: #e65c00;
+  transform: scale(1.05);
+}
+
+#garage-result {
+  font-weight: bold;
+  color: #333;
+  margin-top: 12px;
+  font-size: 16px;
+}

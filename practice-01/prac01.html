@@ -1,0 +1,70 @@
+<!doctype>
+
+<html>
+    <head>
+        <title>JavaScript Practic</title>
+        <link rel="stylesheet" href="prac01.css">
+    </head>
+    <body>
+        <div class="heading">
+            <h3>People counter:</h3>
+            <h2 id="boost-people">0</h2>
+            <button id="button1" onclick="increase()">INCREASE COUNTER</button>
+            <button id="button2" onclick="save()">SAVE LIKE</button>
+            <p id="list-likes">List of saved likes: </p>
+
+
+
+        </div>
+
+        <div class="heading-2">
+            <h2>Calculator</h2>
+            <div>
+                <h2 class="number" id="num-1"></h2>
+            </div>
+            <div>
+                <h2 class="number" id="num-2"></h2>
+            </div>
+            <button class="button3" onclick="add()">Add</button>
+            <button class="button3" onclick="subtract()">Subtract</button>
+            <button class="button3" onclick="multiply()">Multiply</button>
+            <button class="button3" onclick="divide()">Divide</button>
+            
+            <span id="result">Result: </span>
+        </div>
+
+
+
+
+     
+     
+  <div class="calc-container">
+    <h2>Calculator - Copied Code</h2>
+
+    <!-- Inputs -->
+    <input id="horsepower" type="number" placeholder="Enter first number">
+    <input id="torque" type="number" placeholder="Enter second number">
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <button onclick="accelerate()">Addition</button>
+      <button onclick="brake()">Subtraction</button>
+      <button onclick="boost()">Multiplication</button>
+      <button onclick="drift()">Division</button>
+    </div>
+
+    <!-- Result -->
+    <p id="garage-result">Result: </p>
+  </div>
+
+
+        </div>
+
+
+
+
+
+         <script src="prac01.js"></script>
+    </body>
+
+</html>
